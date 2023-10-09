@@ -32,16 +32,6 @@ export default {
         title: 'Form Link',
       },
       {
-        name: 'button',
-        type: 'number',
-        title: 'Button ID',
-      },
-      {
-        name: 'section',
-        type: 'number',
-        title: 'Section ID',
-      },
-      {
         name:'category',
         type:'string',
         title:'Category',
