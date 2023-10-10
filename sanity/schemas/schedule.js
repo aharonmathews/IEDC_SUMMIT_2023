@@ -19,6 +19,7 @@ export default {
 					title:'Venue',
 					options: {
 						list: [
+							{title: 'Main Stage', value: 'mainStage'},
 							{title: 'DJ Hall', value: 'djHall'},
 							{title: 'Sargam Stage', value: 'sargamStage'},
 							{title: 'CGPU Hall', value: 'cgpuHall'},
@@ -56,25 +57,11 @@ export default {
 					title:'Image',
 				},
 				{
-					name: 'starttime',
-					type: 'datetime',
-					title: 'Event Start Time',
-					options: {
-						dateFormat: 'DD/MM/YYYY hh:mm A',
-						timeStep: 15,  // 15-minute intervals
-					},
-					default: '2023-10-09T' + '00:00:00Z',  // Default date: 9th October 2023
-				},
-				{
-					name: 'endtime',
-					type: 'datetime',
-					title: 'Event End Time',
-					options: {
-						dateFormat: 'DD/MM/YYYY hh:mm A',
-						timeStep: 15,  // 15-minute intervals
-					},
-					default: '2023-10-09T' + '00:00:00Z',  // Default date: 9th October 2023
-				},
+					name:'time',
+					type:'string',
+					title:'Time',
+					description:'Format 11:00 AM - 12:00 PM',
+				}
 
     ]
 }
