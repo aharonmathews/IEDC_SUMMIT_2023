@@ -53,6 +53,7 @@ export default {
             {title:'Register Now', value:'registerNow'},
             {title:'Event completed', value:'eventCompleted'},
             {title:'Forthcoming Results', value:'resultsComing'},
+            {title:'Guidelines', value:'guidelines'},
           ],
           layout: 'radio',
         }
